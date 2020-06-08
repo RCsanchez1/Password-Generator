@@ -10,8 +10,7 @@ function writePassword() {
 
 }
 
-// Added event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+
 
 // The Password generator needs to provide a password with 8-128  characters based on criteria the user specifies.
 
@@ -58,7 +57,7 @@ function generatePassword() {
         var confirmUpperCase = confirm("Click OK to confirm if you would like to include uppercase characters");   
     } 
 
-      // Assign an action to the password parameters NEED TO FIX THIS
+      // Assign an action to the password parameters 
       var passwordCharacters = []
       
     if (confirmSpecialCharacter) {
