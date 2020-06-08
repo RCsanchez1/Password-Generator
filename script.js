@@ -58,6 +58,16 @@ function generatePassword() {
         var confirmUpperCase = confirm("Click OK to confirm if you would like to include uppercase characters");   
     } 
 
+     var passwordCharacters =
+
+     if (confirmSpecialCharacter) {
+       passwordCharacters = passwordCharacters.concat(specialChar)
+     }
+
+     if (confirmSpecialCharacter) {
+      passwordCharacters = passwordCharacters.concat(number)
+     }
+     
      
 
       // Empty string to be filled based on for loop selecting random characters from the array
