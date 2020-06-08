@@ -10,15 +10,15 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
+// Added event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// The Password generator will provide a password with 8-50  characters based on criteria the user specifies.
+// The Password generator needs to provide a password with 8-128  characters based on criteria the user specifies.
 
 //Assignment Code + Event Listener to prompt questions when button pushed
 document.querySelector("#generate").addEventListener("click", writePassword);
 
-// Various Arrays 
+// added Various Arrays 
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var specialChar = ["!", "%", "&", ",", "*", "+", "-", ".", "/", "<", ">", "?","~"];
 var alphaLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
