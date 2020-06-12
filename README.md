@@ -4,4 +4,4 @@
 
 
 
-![Alt text](Password Generator.png)
+![image](Password Generator.png)
